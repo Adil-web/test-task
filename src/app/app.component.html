@@ -1,0 +1,13 @@
+<div class="container">
+  <div 
+    class="canvas"
+    [ngStyle]="{width: canvasSize + 'px', height: canvasSize + 'px'}"
+  >
+    <img 
+      [ngStyle]="{width: imageSize + 'px'}" 
+      [src]="imageUrl" 
+      alt="Что-то пошло не так, проверьте URL каринки!"
+    >
+  </div>
+  <button (click)="changeImage()">Сменить картинку</button>
+</div>
