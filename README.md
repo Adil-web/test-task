@@ -1,27 +1,13 @@
 # TestTask
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+## Задача:
+Дан холст с размерами: x1 и y1. Дана картина с размера x2 и y2. 
+Необходимо разместить картину на холсте (увеличить или уменьшить) максимально на весь холст, СОХРАНЯЯ ПРОПОРЦИИ.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Решение:
+1. Сделал холст с размером 400x400 пикселей.
+2. Так же сделал так чтобы размер картинки менялось при скролле мышкой сохраняя пропорции картинки.
+![image](https://user-images.githubusercontent.com/62048169/161498985-1c4e9b38-493f-4c3c-a7ba-a9328140f1c9.png)
+3. Добавил кнопку возможность менять картинку по URL.
+![image](https://user-images.githubusercontent.com/62048169/161499152-d625ab89-389f-4dba-938a-40db94867069.png)
+![image](https://user-images.githubusercontent.com/62048169/161499361-0b4372cd-d6c6-448e-bc9f-82f111345a4f.png)
