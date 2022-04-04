@@ -7,7 +7,10 @@
 ## Решение:
 1. Сделал холст с размером 400x400 пикселей.
 2. Так же сделал так чтобы размер картинки менялось при скролле мышкой сохраняя пропорции картинки.
+
 ![image](https://user-images.githubusercontent.com/62048169/161498985-1c4e9b38-493f-4c3c-a7ba-a9328140f1c9.png)
 3. Добавил кнопку возможность менять картинку по URL.
+
 ![image](https://user-images.githubusercontent.com/62048169/161499152-d625ab89-389f-4dba-938a-40db94867069.png)
+
 ![image](https://user-images.githubusercontent.com/62048169/161499361-0b4372cd-d6c6-448e-bc9f-82f111345a4f.png)
